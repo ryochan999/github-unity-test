@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GameController;
+
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -25,7 +25,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (nextTargetKnown == false)
         {
-            nextMoveTargetPosition = gameController.GetComponent<GameController>().object1X;
+//            nextMoveTargetPosition = gameController.GetComponent<GameController>().object1X;
         }
         MoveForward();
     }
@@ -35,7 +35,7 @@ public class PlayerBehavior : MonoBehaviour
         float currentX = gameObject.transform.position.x;
         float targetX = nextMoveTargetPosition;
 
-        gameObject.transform.position = new Vector3(Mathf.Lerp(currentX, targetX, Time.deltaTime), playerHeight , playerDepth);
+        //gameObject.transform.position = new Vector3(Mathf.Lerp(currentX, targetX, Time.deltaTime), playerHeight , playerDepth);
 
     }
 }
