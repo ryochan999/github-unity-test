@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 99c871bc6c73444029cc34f7eea38ef0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - targetChildObject: {instanceID: 0}
+  - EnemyObject: {fileID: 786379544476499109, guid: ff45244565fcd4c66bcefe31d1c6bb84,
+      type: 3}
+  - LowCoverObject: {fileID: 5550535681884769175, guid: f69eb573d933444c1b568c4de3e89028,
+      type: 3}
+  - HighCoverObject: {fileID: 5390300692256765072, guid: 2753dc77ae2cc489fb9f4269a96d3c58,
+      type: 3}
+  - LootObject: {fileID: 2230601099205843885, guid: 097083cd52d314a53a8eb9cd9c4bab8e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,7 +11,9 @@ namespace StageLayout
     {
         public int stageNumber;
         public int objectCount;
+        
         public List<ObjectType> objectsInStage;
+
 
         // constructors
 
@@ -30,7 +32,8 @@ namespace StageLayout
 
             for (int i = 0; i < objectCount; i++)
             {
-                objectsInStage.Add((ObjectType)UnityEngine.Random.Range(0, 4));
+                objectsInStage.Add((ObjectType)UnityEngine.Random.Range(0, 3));
+
             }
         }
 

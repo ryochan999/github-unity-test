@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -404,6 +405,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f142b6c4dfe4928b39807050cbfe28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 801505136}
 --- !u!1 &1636792428
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,14 +451,13 @@ MonoBehaviour:
   objectNumber: 3
   map: []
   xGap: 20
-  LowCoverPrefab: {fileID: 5550535681884769175, guid: f69eb573d933444c1b568c4de3e89028,
+  nextObjectNumber: 1
+  nextObjectX: 0
+  playerInteractionDistance: 1
+  StageObjectsList: []
+  NewObjectPrefab: {fileID: 271505079031909850, guid: 96474190aa5e04ab9af254387b1cbb16,
     type: 3}
-  HighCoverPrefab: {fileID: 5390300692256765072, guid: 2753dc77ae2cc489fb9f4269a96d3c58,
-    type: 3}
-  LootPrefab: {fileID: 2230601099205843885, guid: 097083cd52d314a53a8eb9cd9c4bab8e,
-    type: 3}
-  EnemyPrefab: {fileID: 786379544476499109, guid: ff45244565fcd4c66bcefe31d1c6bb84,
-    type: 3}
+  PlayerObject: {fileID: 801505136}
 --- !u!4 &1636792430
 Transform:
   m_ObjectHideFlags: 0
